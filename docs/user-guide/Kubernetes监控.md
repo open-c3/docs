@@ -17,23 +17,23 @@ KUBERNETES监控部分更多的是统一管理。目前Kubernetes有很多监控
 
 安装完后，确保安装在集群中的普罗米修斯的端口对外可以访问，Open-C3会通过这个端口把数据汇总到Open-C3服务的普罗米修斯中。
 
-![](file:////Users/feng/Library/Containers/com.kingsoft.wpsoffice.mac/Data/tmp/wps-feng/ksohtml//wps44.jpg) 
+![](/attachments/20250706222757_wps44.jpg) 
 
 如果默认没有对外开放，可以手动添加一个映射：
 
-![](file:////Users/feng/Library/Containers/com.kingsoft.wpsoffice.mac/Data/tmp/wps-feng/ksohtml//wps45.jpg) 
+![](/attachments/20250706222757_wps45.jpg) 
 
 在云监控中配置采集
 
 进到“管理”-> “云监控”页面，点击添加云监控。
 
-![](file:////Users/feng/Library/Containers/com.kingsoft.wpsoffice.mac/Data/tmp/wps-feng/ksohtml//wps46.jpg) 
+![](/attachments/20250706222757_wps46.jpg) 
 
 采集添加后，Open-C3上的普罗米修斯就会把Kubernetes中普罗米修斯的数据实时的同步到Open-C3上。
 
 ## 1.2 添加监控策略
 
-![](file:////Users/feng/Library/Containers/com.kingsoft.wpsoffice.mac/Data/tmp/wps-feng/ksohtml//wps47.jpg) 
+![](/attachments/20250706222757_wps47.jpg) 
 
 导入后可以看到监控策略，在该服务树上订阅告警。
 
@@ -47,7 +47,7 @@ KUBERNETES监控部分更多的是统一管理。目前Kubernetes有很多监控
 
 [https://gitee.com/open-c3/open-c3-guide/tree/main/attachments/monitor/grafana/kubernetes](https://gitee.com/open-c3/open-c3-guide/tree/main/attachments/monitor/grafana/kubernetes)
 
-![](file:////Users/feng/Library/Containers/com.kingsoft.wpsoffice.mac/Data/tmp/wps-feng/ksohtml//wps48.jpg) 
+![](/attachments/20250706222757_wps48.jpg) 
 
 ## 1.4 总结
 
