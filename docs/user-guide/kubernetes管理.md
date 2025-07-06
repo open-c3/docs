@@ -8,20 +8,20 @@
 
 导航菜单进入： 容器集群 -> kubernetes应用管理页面
 
-![](file:////Users/feng/Library/Containers/com.kingsoft.wpsoffice.mac/Data/tmp/wps-feng/ksohtml//wps58.jpg) 
+![](/attachments/20250706231312_wps58.jpg) 
 
 点击添加按钮
 
-![](file:////Users/feng/Library/Containers/com.kingsoft.wpsoffice.mac/Data/tmp/wps-feng/ksohtml//wps59.jpg) 
+![](/attachments/20250706231312_wps59.jpg) 
 
 把内容填写后点击测试按钮，如果测试成功说明测试没有问题，然后点击保存凭据。
 
-![](file:////Users/feng/Library/Containers/com.kingsoft.wpsoffice.mac/Data/tmp/wps-feng/ksohtml//wps60.jpg) 
+![](/attachments/20250706231312_wps60.jpg) 
 
 保存后可以看到集群中应用的信息，同时可以创建应用编辑应用等。
 
-![](file:////Users/feng/Library/Containers/com.kingsoft.wpsoffice.mac/Data/tmp/wps-feng/ksohtml//wps61.jpg) 
+![](/attachments/20250706231312_wps61.jpg) 
 
 ## 1.3  集群授权
 
-![](file:////Users/feng/Library/Containers/com.kingsoft.wpsoffice.mac/Data/tmp/wps-feng/ksohtml//wps62.jpg)
+![](/attachments/20250706231312_wps62.jpg)
