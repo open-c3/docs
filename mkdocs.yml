@@ -3,3 +3,8 @@ nav:
 - 首页: index.md
 - 快速开始: getting-started.md
 - 用户指南: user-guide/
+
+theme:
+  name: mkdocs
+  custom_dir: docs/overrides
+
