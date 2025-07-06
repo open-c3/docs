@@ -1,4 +1,4 @@
-site_name: Open-C3
+site_name: Open-C3 文档
 nav:
-- Readme: readme.md
-- index: index.md
+- 首页: index.md
+- 快速开始: getting-started.md

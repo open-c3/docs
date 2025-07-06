@@ -1,15 +1,3 @@
-<div align="center">
-  <a name="readme-top"></a>
-  <a><img src="/open-c3-logo.jpeg" alt="Open-C3" width="50" /></a>
-   一个开源的 自动化运维 平台 (DevOps)
-</div>
-<br/>
-
-
-## 什么是 Open-C3？
-
-Open-C3 是一个开源的自动化运维平台，功能包括 CMDB、监控系统、发布系统、工单系统、流程系统 等，同时各子系统之间自动联动。是一个一体化的自动化运维平台。
-
 ## 快速启动
 
 准备一个干净的 Linux Server (64 位，>= 4c8g)
@@ -23,7 +11,7 @@ curl -sSL https://github.com/open-c3/open-c3/releases/download/v2.6.1-latest/qui
 - 用户名: `open-c3`
 - 密码: `changeme`
 
-## 截图
+## 系统截图
 <table style="border-collapse: collapse; border: 1px solid black;">
   <tr>
     <td style="padding: 5px;background-color:#fff;"><img src= "https://github.com/user-attachments/assets/c3070a34-f1e4-42a9-b240-79056909e00b" alt="Open-C3 CMDB 首页"   /></td>
