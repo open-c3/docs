@@ -1,6 +1,6 @@
 <div align="center">
   <a name="readme-top"></a>
-  <a><img src="/open-c3-logo.jpeg" alt="Open-C3" width="50" /></a>
+  <a><img src="/images/open-c3-logo.jpeg" alt="Open-C3" width="50" /></a>
    一个开源的 自动化运维 平台 (DevOps)
 </div>
 <br/>

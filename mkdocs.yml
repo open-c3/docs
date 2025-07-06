@@ -1,4 +1,4 @@
-site_name: Open-C3 文档
+site_name: Open-C3 一个开源的 自动化运维 平台 (DevOps)
 nav:
 - 首页: index.md
 - 快速开始: getting-started.md
