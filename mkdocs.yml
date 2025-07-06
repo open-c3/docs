@@ -1,1 +1,4 @@
 site_name: Open-C3
+nav:
+- Readme: readme.md
+- index: index.md
