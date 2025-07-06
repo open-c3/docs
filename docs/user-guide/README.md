@@ -1,7 +1,5 @@
 # 用户指南
 
-Building Documentation with MkDocs
-
 ---
 
 《Open-C3用户指南》为Open-C3的用户提供了文档。你可以直接跳到下面列出的页面。

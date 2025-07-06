@@ -73,3 +73,95 @@ Open-C3 是一个开源的自动化运维平台，功能包括 CMDB、监控系�
   </div>
 </div>
 </div>
+
+
+<div class="pt-2 pb-4 px-4 my-4 bg-body-tertiary rounded-3">
+<h2 class="display-8 text-center">系统截图</h2>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card mb-4">
+      <div class="card-body">
+        <img src= "https://github.com/user-attachments/assets/c3070a34-f1e4-42a9-b240-79056909e00b" alt="Open-C3 CMDB 首页"/>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card mb-4">
+      <div class="card-body">
+        <img src= "https://github.com/user-attachments/assets/15aff287-4cf1-4eed-8567-65567020df07" alt="Open-C3 CMDB 查看单个资源详情"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card mb-4">
+      <div class="card-body">
+        <img src= "https://github.com/user-attachments/assets/ac21234e-71ec-49b3-9dd5-c02cf85ed1d8" alt="Open-C3 监控"/>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card mb-4">
+      <div class="card-body">
+        <img src= "https://github.com/user-attachments/assets/45ba808d-6d89-4aac-b09b-cc6fef4bad33" alt="Open-C3 监控"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card mb-4">
+      <div class="card-body">
+        <img src= "https://github.com/user-attachments/assets/1d52a93f-6b12-46df-ba1c-cad46ea66793" alt="Open-C3 监控"/>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card mb-4">
+      <div class="card-body">
+        <img src= "https://github.com/user-attachments/assets/e3f50373-115b-42f4-86a3-9bd5afa085b7" alt="Open-C3 监控"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card mb-4">
+      <div class="card-body">
+        <img src= "https://github.com/user-attachments/assets/584b374f-b3e0-4321-a5a6-96c7be3eeea1" alt="Open-C3 CICD"/>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card mb-4">
+      <div class="card-body">
+        <img src= "https://github.com/user-attachments/assets/2bc1a7c2-07d9-4cf8-aa35-7e507cee5ef0" alt="Open-C3 CICD"   />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card mb-4">
+      <div class="card-body">
+        <img src= "https://github.com/user-attachments/assets/fd5a7401-0c4c-4218-b12a-905a59360423" alt="Open-C3 菜单"/>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card mb-4">
+      <div class="card-body">
+        <img src= "https://github.com/user-attachments/assets/9292eb7a-bba6-4477-af75-8c99f57af410" alt="Open-C3 工单"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>

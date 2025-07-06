@@ -1,8 +1,13 @@
-site_name: Open-C3 一个开源的 自动化运维 平台 (DevOps)
+site_name: Open-C3
+
+repo_url: https://github.com/open-c3/docs/
+edit_uri: blob/main/docs/
+
 nav:
 - 首页: index.md
 - 快速开始: getting-started.md
 - 用户指南: user-guide/
+- 演示环境: 演示环境.md
 
 theme:
   name: mkdocs
