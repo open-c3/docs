@@ -16,3 +16,5 @@ theme:
   name: mkdocs
   custom_dir: docs/overrides
 
+markdown_extensions:
+  - attr_list

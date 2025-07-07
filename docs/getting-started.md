@@ -1,6 +1,6 @@
 ## 快速启动
 
-准备一个干净的 Linux Server (64 位，>= 4c8g)
+准备一个干净的 Linux 服务器 (64 位，>= 4c8g)
 
 ```sh
 curl -sSL https://github.com/open-c3/open-c3/releases/download/v2.6.1-latest/quick_start.sh | bash
