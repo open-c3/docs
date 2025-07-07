@@ -1,34 +1,32 @@
 # 1 CND刷新
 
-简介
-
 OPEN-C3支持通过内建插件对各CDN厂商的CDN进行刷新。
 
 支持的CDN厂商：
 
-· aliyun: 阿里云
+* aliyun: 阿里云
 
-· aws: AWS
+* aws: AWS
 
-· chinacache: 蓝汛
+* chinacache: 蓝汛
 
-· dnion: 帝联
+* dnion: 帝联
 
-· exclouds: 逸云
+* exclouds: 逸云
 
-· huawei: 华为
+* huawei: 华为
 
-· isurecloud: 云端智度
+* isurecloud: 云端智度
 
-· jscdn: 金山云
+* jscdn: 金山云
 
-· qcloud: 腾讯
+* qcloud: 腾讯
 
-· qingcdn: 白山云
+* qingcdn: 白山云
 
-· qiniu: 七牛
+* qiniu: 七牛
 
-· ucloud: ucloud
+* ucloud: ucloud
 
 ## 1.1 使用
 
@@ -40,87 +38,106 @@ CDN刷新需要使用账号信息，这部分信息通过票据进行管理。
 
 新建票据，票据类型选择“插件”，票据的内容格式如下的kv键值。
 
+```
 export openc3_cdnrefresh_cdn_abc="123"
+```
 
-v 厂商对应需要的票据键值
+### 厂商对应需要的票据键值
 
-Ø aliyun【阿里云】
+* aliyun【阿里云】
 
-§ openc3_cdnrefresh_aliyun_accessKey
+```
+openc3_cdnrefresh_aliyun_accessKey
+openc3_cdnrefresh_aliyun_accessSecret
+openc3_cdnrefresh_aliyun_regionId
+```
 
-§ openc3_cdnrefresh_aliyun_accessSecret
+* aws【AWS】
 
-§ openc3_cdnrefresh_aliyun_regionId
+```
+无
+```
 
-Ø aws【AWS】
+* chinacache【蓝汛】
 
-§ 无
+```
+openc3_cdnrefresh_chinacache_username
+openc3_cdnrefresh_chinacache_password
+```
 
-Ø chinacache【蓝汛】
+* dnion【帝联】
 
-§ openc3_cdnrefresh_chinacache_username
+```
+openc3_cdnrefresh_dnion_username
+openc3_cdnrefresh_dnion_password
+```
 
-§ openc3_cdnrefresh_chinacache_password
+* exclouds【逸云】
 
-Ø dnion【帝联】
+```
+openc3_cdnrefresh_exclouds_Authorization
+```
 
-§ openc3_cdnrefresh_dnion_username
+* excloudsPrefetch【逸云】预热
 
-§ openc3_cdnrefresh_dnion_password
+```
+openc3_cdnrefresh_exclouds_Authorization
+```
 
-Ø exclouds【逸云】
+* huawei【华为】
 
-§ openc3_cdnrefresh_exclouds_Authorization
+```
+openc3_cdnrefresh_huawei_ak
+openc3_cdnrefresh_huawei_sk
+```
 
-Ø excloudsPrefetch【逸云】预热
+* isurecloud【云端智度】
 
-§ openc3_cdnrefresh_exclouds_Authorization
+```
+openc3_cdnrefresh_isurecloud_appid
+openc3_cdnrefresh_isurecloud_appsecret
+```
 
-Ø huawei【华为】
+* jscdn【金山云】
 
-§ openc3_cdnrefresh_huawei_ak
+```
+openc3_cdnrefresh_jscdn_access_key
+openc3_cdnrefresh_jscdn_secret_key
+```
 
-§ openc3_cdnrefresh_huawei_sk
+* qcloud【腾讯】
 
-Ø isurecloud【云端智度】
+```
+openc3_cdnrefresh_qcloud_secretId
+openc3_cdnrefresh_qcloud_secretKey
+```
 
-§ openc3_cdnrefresh_isurecloud_appid
+* qingcdn【白山云】
 
-§ openc3_cdnrefresh_isurecloud_appsecret
+```
+openc3_cdnrefresh_qingcdn_token
+```
 
-Ø jscdn【金山云】
+* qingcdnPrefetch【白山云】预热
 
-§ openc3_cdnrefresh_jscdn_access_key
+```
+openc3_cdnrefresh_qingcdn_token
+```
 
-§ openc3_cdnrefresh_jscdn_secret_key
+* qiniu【七牛】
 
-Ø qcloud【腾讯】
+```
+openc3_cdnrefresh_qiniu_ak
+openc3_cdnrefresh_qiniu_sk
+```
 
-§ openc3_cdnrefresh_qcloud_secretId
+* ucloud【ucloud】
 
-§ openc3_cdnrefresh_qcloud_secretKey
-
-Ø qingcdn【白山云】
-
-§ openc3_cdnrefresh_qingcdn_token
-
-Ø qingcdnPrefetch【白山云】预热
-
-§ openc3_cdnrefresh_qingcdn_token
-
-Ø qiniu【七牛】
-
-§ openc3_cdnrefresh_qiniu_ak
-
-§ openc3_cdnrefresh_qiniu_sk
-
-Ø ucloud【ucloud】
-
-§ openc3_cdnrefresh_ucloud_public_key
-
-§ openc3_cdnrefresh_ucloud_private_key
-
-§ openc3_cdnrefresh_ucloud_project_id
+```
+openc3_cdnrefresh_ucloud_public_key
+openc3_cdnrefresh_ucloud_private_key
+openc3_cdnrefresh_ucloud_project_id
+```
 
 ### 1.1.2 插件配置
 
@@ -136,7 +153,6 @@ f:/bar/index.html
 d:/foo/
 d:/abc/def/
 ```
-
 
 
 每一行是一个要刷新的地址，文件以“f:”开头，目录以“d:”开头。

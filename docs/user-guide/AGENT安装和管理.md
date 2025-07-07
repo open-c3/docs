@@ -1,6 +1,5 @@
 # 1 AGENT安装和管理
 
-简介
 
 OPEN-C3对于服务器的操作依赖于AGENT。同时为了在隔离网络中进行数据同步和指令调用，需要根据实际需要进行代理的配置。
 
@@ -9,12 +8,12 @@ OPEN-C3的AGENT和代理是同一个程序，只需要每个网络中有一个�
 页面路径:【业务管理】->【代理设置(AGENT安装)】
 
 ## 1.1  AGENT安装
+![](/attachments/Pasted_image_20250707122006.png)
 
-![](/attachments/20250706235525_wps106.jpg)
 
 在要安装AGENT的服务器上运行浏览器中显示的安装命令，如下：
 ```
-[root@localhost ~]#curl -L http://10.10.10.10/api/scripts/installAgent.sh |sudo OPEN_C3_ADDR=10.10.10.10 bash
+[root@localhost ~]#curl -L http://your-openc3-ip/api/agent-install.sh |bash
 
 ....
 
@@ -31,7 +30,7 @@ UPDATE OPEN-C3 AGENT: SUCCESS!!!
 
 代理配置在服务树中有继承关系。
 
-添加代理区域
+### 添加代理区域
 
 ![](/attachments/20250706235525_wps107.jpg)
 
@@ -41,9 +40,9 @@ UPDATE OPEN-C3 AGENT: SUCCESS!!!
 
 同时可以勾选默认的代理重新进行网段的设置。
 
-设置代理
+### 设置代理
 
-v 添加代理IP
+添加代理IP
 
 ![](/attachments/20250706235525_wps108.jpg)
 
@@ -57,7 +56,7 @@ v 添加代理IP
 
 使用轮训在某些情况下会因为找不到缓存而使得文件重复的传输。
 
-v 添加网段
+**添加网段**
 
 ![](/attachments/20250706235525_wps109.jpg)
 
@@ -65,7 +64,7 @@ v 添加网段
 
 （如 10.10.10.10/24和10.10.10.10/16 优先匹配10.10.10.10/24）。
 
-v 查看代理情况
+**查看代理情况**
 
 通过点击下面的按钮可以查看该服务树节点的代理的配置情况，程序通过这个接口来读取该服务树节点的代理配置。
 
@@ -84,11 +83,9 @@ v 查看代理情况
 【注：开启的情况下会耗费机器资源，如不需要可以不开启。】
 
 ![](/attachments/20250706235525_wps112.jpg)
-
 关闭的情况看不到AGENT的状态：
 
 ![](/attachments/20250706235525_wps113.jpg)
-
 开启的情况，在使用到机器列表的时候可以看到AGENT的状态：
 
 ![](/attachments/20250706235525_wps114.jpg)

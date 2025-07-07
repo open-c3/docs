@@ -9,4 +9,4 @@ Open-C3的前端没有手机端做全面的适配，但是有的情况下需要�
 
 不管使用的http还是https的方式访问Open-C3的页面，如果访问的域名是“app-”或者“app.”为前缀的域名。访问的就是手机端的Web。
 
-![](/attachments/20250706231556_wps63.jpg)
+![](/attachments/20250706231556_wps63.jpg){ width="40%" }
