@@ -11,6 +11,7 @@ nav:
 - 快速开始: getting-started.md
 - 用户指南: user-guide/
 - 演示环境: 演示环境.md
+- 关于: about/
 
 theme:
   name: mkdocs
