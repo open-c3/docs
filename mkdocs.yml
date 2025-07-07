@@ -1,4 +1,7 @@
 site_name: Open-C3
+site_url: https://www.open-c3.online/
+site_description: OpenC3 一个开源的 自动化运维 平台 (DevOps)
+site_author: lijinfeng2011@gmail.com
 
 repo_url: https://github.com/open-c3/docs/
 edit_uri: blob/main/docs/
