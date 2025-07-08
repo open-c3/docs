@@ -1,5 +1,5 @@
 <div align="center" style="padding: 2rem 1rem; background: linear-gradient(to right, #1e3c72, #2a5298); color: white; border-radius: 12px; margin-bottom: 2rem;">
-  <img src="https://open-c3.github.io/images/open-c3-logo.jpeg" alt="Open-C3 Logo" width="80" style="border-radius: 8px; margin-bottom: 1rem;" />
+  <img src="/images/open-c3-logo.jpeg" alt="Open-C3 Logo" width="80" style="border-radius: 8px; margin-bottom: 1rem;" />
   <h1 style="margin: 0.5rem 0;">Open‑C3：开源一体化自动化运维平台</h1>
   <p style="font-size: 1.1rem; max-width: 600px; margin: auto;">
     集成 CMDB、监控、发布、流程、工单五大核心系统，支持多云环境，助力 DevOps 高效落地。
