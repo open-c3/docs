@@ -1,12 +1,20 @@
-<div align="center">
-  <a name="readme-top"></a>
-  <a><img src="/images/open-c3-logo.jpeg" alt="Open-C3" width="50" /></a>
-   一个开源的 自动化运维 平台 (DevOps)
-</div>
-<br/>
+<div align="center" style="padding: 2rem 1rem; background: linear-gradient(to right, #1e3c72, #2a5298); color: white; border-radius: 12px; margin-bottom: 2rem;">
+  <img src="https://open-c3.github.io/images/open-c3-logo.jpeg" alt="Open-C3 Logo" width="80" style="border-radius: 8px; margin-bottom: 1rem;" />
+  <h1 style="margin: 0.5rem 0;">Open‑C3：开源一体化自动化运维平台</h1>
+  <p style="font-size: 1.1rem; max-width: 600px; margin: auto;">
+    集成 CMDB、监控、发布、流程、工单五大核心系统，支持多云环境，助力 DevOps 高效落地。
+  </p>
 
-# Open-C3
----
+  <!-- GitHub Star 按钮 -->
+  <div style="margin-top: 1rem;">
+    <iframe src="https://ghbtns.com/github-btn.html?user=open-c3&repo=open-c3&type=star&count=true&size=large"
+      frameborder="0" scrolling="0" width="160" height="30" title="GitHub Star"></iframe>
+  </div>
+
+  <!-- CTA 文案 -->
+  <p style="margin-top: 0.5rem;">👉 喜欢这个项目？点击上方按钮给我们一个 ⭐ Star 吧！</p>
+</div>
+
 
 Open-C3 是一个开源的自动化运维平台，包括 CMDB、监控系统、发布系统、工单系统、流程系统 等，同时各子系统之间相互联动。是一个一体化的自动化运维平台。
 请查看[用户指南]以获得更多的信息。
@@ -19,8 +27,9 @@ Open-C3 是一个开源的自动化运维平台，包括 CMDB、监控系统、�
 <a href="user-guide/" class="btn btn-primary" role="button">用户指南</a>
 </div>
 
+---
 <div class="pt-2 pb-4 px-4 my-4 bg-body-tertiary rounded-3">
-<h2 class="display-4 text-center">特色</h2>
+<h2 class="display-8 text-center">✨ 平台特色</h2>
 
 <div class="row">
   <div class="col-sm-6">
@@ -74,9 +83,9 @@ Open-C3 是一个开源的自动化运维平台，包括 CMDB、监控系统、�
 </div>
 </div>
 
-
+---
 <div class="pt-2 pb-4 px-4 my-4 bg-body-tertiary rounded-3">
-<h2 class="display-8 text-center">系统截图</h2>
+<h2 class="display-8 text-center"> 🚀 系统功能截图</h2>
 
 <div class="row">
   <div class="col-sm-6">
@@ -165,3 +174,20 @@ Open-C3 是一个开源的自动化运维平台，包括 CMDB、监控系统、�
 </div>
 
 </div>
+
+
+---
+
+## 🙌 欢迎参与贡献
+
+我们欢迎任何形式的贡献，包括但不限于：
+
+- 提交 issue 或建议
+
+- 改进文档
+
+- 提交代码 PR
+
+- 分享你的使用经验
+
+👉 请参考 [贡献指南](/about/欢迎参与贡献/) 开始参与！
