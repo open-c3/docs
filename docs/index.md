@@ -6,15 +6,15 @@
   </p>
 
   <!-- GitHub Star 按钮 -->
-  <div style="margin-top: 1rem;">
-    <iframe src="https://ghbtns.com/github-btn.html?user=open-c3&repo=open-c3&type=star&count=true&size=large"
-      frameborder="0" scrolling="0" width="160" height="30" title="GitHub Star"></iframe>
+  <div style="margin-top: 1rem;" class="github-star-badge">
+    <a href="https://github.com/open-c3/open-c3" target="_blank" rel="noopener">
+      <img src="https://img.shields.io/github/stars/open-c3/open-c3?color=%231890FF&style=flat-square" alt="GitHub stars">
+    </a>
   </div>
 
   <!-- CTA 文案 -->
   <p style="margin-top: 0.5rem;">👉 喜欢这个项目？点击上方按钮给我们一个 ⭐ Star 吧！</p>
 </div>
-
 
 Open-C3 是一个开源的自动化运维平台，包括 CMDB、监控系统、发布系统、工单系统、流程系统 等，同时各子系统之间相互联动。是一个一体化的自动化运维平台。
 请查看[用户指南]以获得更多的信息。
