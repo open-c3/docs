@@ -24,7 +24,8 @@ grep -rl "https://github.com/user-attachments/assets/" . | while read -r file; d
         fi
 
         # 替换 HTML 文件中的链接
-        sed -i "s|$url|https://www.open-c3.online/user-attachments/assets/$filename|g" "$file"
+        sed -i "s|$url|/user-attachments/assets/$filename|g" "$file"
+        #sed -i "s|$url|https://www.open-c3.online/user-attachments/assets/$filename|g" "$file"
     done
 done
 
