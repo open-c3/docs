@@ -1,3 +1,7 @@
 *.swp
 .DS_Store
 *.old
+sync.txt
+site/
+docs/.obsidian/
+open-c3.github.io/
