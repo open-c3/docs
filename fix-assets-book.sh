@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 设置目标目录
-TARGET_DIR="/data/open-c3/c3-front/dist/book"
+TARGET_DIR="."
 
 # 替换规则
 replace_src() {
