@@ -24,3 +24,7 @@ CMDB会定时备份全量数据，我们可以选择在某个历史时间中查�
 1.2.2 当资源发生升配或者降配时，会通知  open-c3-fee 用户。下面是open-c3-fee在资源变动时收到的飞书消息。
 
 ![](/attachments/Pasted_image_20251206232102.png)
+
+## 1.3 证书过期通知
+
+ssl-certificate-expired-notify 任务会每天检查cmdb中的证书是否将要过期，如果发现即将过期的证书通知告警组@cmdb_notify_ssl_expired
